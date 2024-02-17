@@ -30,7 +30,10 @@ logging:
   level:
     hello.controller: debug
 
-
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
 
 
 
